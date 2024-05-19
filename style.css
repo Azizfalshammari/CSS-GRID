@@ -1,0 +1,187 @@
+div {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'thirteen thirteen nine nine eighteen one one twenty twenty fifteen'
+    'thirteen thirteen five six six one one eleven three three'
+    'twentytwo twentytwo five six six eight eight eleven three three'
+    'seven sixteen sixteen two two nineteen fourteen fourteen twentyone twentyone'
+    'twentyfour twentyfour seventeen two two four four twentythree twentyone twentyone'
+    'twentyfour twentyfour seventeen twelve twelve four four twentythree ten ten'
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 1 – one
+2 – two
+3 – three
+4 – four
+5 – five
+6 – six
+7 – seven
+8 – eight
+9 – nine
+10 – ten
+11 – eleven
+12 – twelve
+13 – thirteen
+14 – fourteen
+15 – fifteen
+16 – sixteen
+17 – seventeen
+18 – eighteen
+19 – nineteen
+20 – twenty
+21 – twenty-one
+22 – twenty-two
+23 – twenty-three
+24 – twenty-four */
+.item1 {
+
+    border: dotted black;
+    grid-area: one;
+    background-color: green;
+}
+.item2 {
+   
+    border: dotted black;
+    grid-area: two;
+    background-color: greenyellow;
+}
+.item3 {
+
+    border: dotted black;
+    grid-area: three;
+    background-color: beige;
+}
+.item4 {
+  
+    border: dotted black;
+    grid-area: four;
+    background-color: cyan;
+}
+.item5 {
+
+    border: dotted black;
+    grid-area: five;
+    background-color: white;
+}
+.item6 {
+ 
+    border: dotted black;
+    grid-area: six;
+    background-color: yellow;
+}
+.item7 {
+    
+    border: dotted black;
+    grid-area: seven;
+    background-color: pink;
+}
+.item8 {
+    
+    border: dotted black;
+    grid-area: eight;
+    background-color: beige;
+}
+.item9 {
+   
+    border: dotted black;
+    grid-area: nine;
+    background-color: rgb(119, 255, 0);
+}
+.item10 {
+   
+    border: dotted black;
+    grid-area: ten;
+    background-color: rgb(220, 15, 32);
+}
+.item11 {
+  
+    border: dotted black;
+    grid-area: eleven;
+    background-color: rgb(130, 130, 181);
+}
+.item12 {
+ 
+    border: dotted black;
+    grid-area: twelve;
+    background-color: rgb(132, 90, 89);
+}
+.item13 {
+    
+    border: dotted black;
+    grid-area: thirteen;
+    background-color: rgb(100, 100, 244);
+}
+.item14 {
+   
+    border: dotted black;
+    grid-area: fourteen;
+    background-color: rgb(62, 92, 73);
+}
+.item15 {
+ 
+    border: dotted black;
+    grid-area: fifteen;
+    background-color: blue;
+}
+.item16 {
+   
+    border: dotted black;
+    grid-area: sixteen;
+    background-color: rgb(0, 170, 255);
+}
+.item17 {
+    
+    border: dotted black;
+    grid-area: seventeen;
+    background-color: rgb(66, 68, 67);
+}
+.item18 {
+
+    border: dotted black;
+    grid-area: eighteen;
+    background-color: rgb(0, 179, 255);
+}
+.item19 {
+    
+    border: dotted black;
+    grid-area: nineteen;
+    background-color: rgb(255, 0, 13);
+}
+.item20 {
+    
+    border: dotted black;
+    grid-area: twenty;
+    background-color: rgb(170, 255, 0);
+}
+.item21 {
+    
+    border: dotted black;
+    grid-area: twentyone;
+    background-color: rgb(85, 85, 107);
+}
+.item22 {
+      border: dotted black;
+    grid-area: twentytwo;
+    background-color: rgb(160, 160, 237);
+
+}
+.item23 {
+  
+    border: dotted black;
+    grid-area: twentythree;
+    background-color: rgb(207, 249, 188);
+}
+.item24 {
+   
+    border: dotted black;
+    grid-area: twentyfour;
+    background-color: rgb(185, 185, 224);
+
+}
