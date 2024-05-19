@@ -1,16 +1,78 @@
-div {
-    display: grid;
-    width: 100vw;
-    height: 100vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    'thirteen thirteen nine nine eighteen one one twenty twenty fifteen'
-    'thirteen thirteen five six six one one eleven three three'
-    'twentytwo twentytwo five six six eight eight eleven three three'
-    'seven sixteen sixteen two two nineteen fourteen fourteen twentyone twentyone'
-    'twentyfour twentyfour seventeen two two four four twentythree twentyone twentyone'
-    'twentyfour twentyfour seventeen twelve twelve four four twentythree ten ten'
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    
+    div {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        /* grid-template-rows: 1fr 2fr 1fr 2fr;
+        grid-template-columns: auto auto; */
+        grid-template-areas: 
+        'thirteen thirteen nine nine eighteen one one twenty twenty fifteen'
+        'thirteen thirteen five six six one one eleven three three'
+        'twentytwo twentytwo five six six eight eight eleven three three'
+        'seven sixteen sixteen two two nineteen fourteen fourteen twentyone twentyone'
+        'twentyfour twentyfour seventeen two two four four twentythree twentyone twentyone'
+        'twentyfour twentyfour seventeen twelve twelve four four twentythree ten ten'
+    } 
+    .item1 {
+
+        border: dotted black;
+        grid-area: one;
+        background-color: black;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px){
+
+    div {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        /* grid-template-rows: 1fr 2fr 1fr 2fr; */
+        /* grid-template-columns: auto auto; */
+        grid-template-areas: 
+        'thirteen thirteen nine nine eighteen one one twenty twenty fifteen'
+        'thirteen thirteen five six six one one eleven three three'
+        'twentytwo twentytwo five six six eight eight eleven three three'
+        'seven sixteen sixteen two two nineteen fourteen fourteen twentyone twentyone'
+        'twentyfour twentyfour seventeen two two four four twentythree twentyone twentyone'
+        'twentyfour twentyfour seventeen twelve twelve four four twentythree ten ten'
+    } 
+    .item1 {
+
+        border: dotted black;
+        grid-area: one;
+        background-color: red;
+    }
 }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 991px) {
+   div {
+    
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-rows: 1fr 2fr 1fr 2fr;
+        /* grid-template-columns: auto auto; */
+        grid-template-areas: 
+        'thirteen thirteen nine nine eighteen one one twenty twenty fifteen'
+        'thirteen thirteen five six six one one eleven three three'
+        'twentytwo twentytwo five six six eight eight eleven three three'
+        'seven sixteen sixteen two two nineteen fourteen fourteen twentyone twentyone'
+        'twentyfour twentyfour seventeen two two four four twentythree twentyone twentyone'
+        'twentyfour twentyfour seventeen twelve twelve four four twentythree ten ten'
+    
+    } 
+    .item1 {
+
+        border: dotted black;
+        grid-area: one;
+        background-color: black;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -40,12 +102,12 @@ div {
 22 – twenty-two
 23 – twenty-three
 24 – twenty-four */
-.item1 {
+/* .item1 {
 
     border: dotted black;
     grid-area: one;
     background-color: green;
-}
+} */
 .item2 {
    
     border: dotted black;
@@ -185,3 +247,5 @@ div {
     background-color: rgb(185, 185, 224);
 
 }
+
+
